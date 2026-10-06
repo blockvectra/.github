@@ -2,10 +2,10 @@
 
 Multi-chain JSON-RPC and indexed Data API for developers and AI agents.
 
-- Website: https://blockvectra.com
-- Docs: https://docs.blockvectra.com
-- Supported chains: https://blockvectra.com/en/chains/
-- Live status: https://blockvectra.com/en/status/
+- Website: https://blockvectra.com?ref=gh-org-profile
+- Docs: https://docs.blockvectra.com?ref=gh-org-profile
+- Supported chains: https://blockvectra.com/en/chains/?ref=gh-org-profile
+- Live status: https://blockvectra.com/en/status/?ref=gh-org-profile
 - Docs MCP server (Streamable HTTP): `https://docs.blockvectra.com/mcp`
 
 ## Starter repos
