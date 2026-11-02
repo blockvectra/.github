@@ -10,6 +10,7 @@ Multi-chain JSON-RPC and indexed Data API for developers and AI agents.
 
 ## Start with a task
 
+- **Read Robinhood mainnet without an account:** [run the pinned keyless quickstart](https://github.com/blockvectra/agent-quickstart/releases/tag/keyless-read-2026.11.02). With Node.js >= 24.12 and Git, check the chain ID and read a block number without installing dependencies, creating a wallet or using an API key.
 - **Connect to Robinhood Chain:** [RPC setup and chain ID](https://docs.blockvectra.com/en/guides/robinhood-chain/?ref=gh-org-profile) or [compare RPC providers](https://docs.blockvectra.com/en/guides/choose-rpc-provider/?ref=gh-org-profile).
 - **Backfill event logs:** [split block ranges and resume a saved checkpoint](https://docs.blockvectra.com/en/guides/getlogs-block-range/?ref=gh-org-profile).
 - **Use an AI agent:** [install the MCP server](https://github.com/blockvectra/mcp#readme). Documentation and discovery tools work without an API key; RPC follows each chain's public policy, while indexed Data API and account tools require a key.
@@ -18,7 +19,7 @@ Multi-chain JSON-RPC and indexed Data API for developers and AI agents.
 
 - [mcp](https://github.com/blockvectra/mcp): keyless docs and discovery; RPC follows each chain's public policy; indexed Data API and account tools require an API key
 - [skills](https://github.com/blockvectra/skills): agent skills for RPC, Data API and programmatic sign-up
-- [agent-quickstart](https://github.com/blockvectra/agent-quickstart): programmatic sign-up and first calls for AI agents
+- [agent-quickstart](https://github.com/blockvectra/agent-quickstart): keyless Robinhood mainnet read; separate wallet/account onboarding and keyed Data API example
 - [multichain-viem](https://github.com/blockvectra/multichain-viem): multichain viem template
 - [data-api-js](https://github.com/blockvectra/data-api-js): TypeScript client for the Data API
 - [hyperevm-backfill](https://github.com/blockvectra/hyperevm-backfill): HyperEVM event and log backfill
