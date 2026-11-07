@@ -6,14 +6,15 @@ Multi-chain JSON-RPC and indexed Data API for developers and AI agents.
 - Docs: https://docs.blockvectra.com?ref=gh-org-profile
 - Supported chains: https://blockvectra.com/en/chains/?ref=gh-org-profile
 - Live status: https://blockvectra.com/en/status/?ref=gh-org-profile
-- Docs MCP server (Streamable HTTP): `https://docs.blockvectra.com/mcp`
+- Documentation-only MCP (Streamable HTTP): `https://docs.blockvectra.com/mcp/docs` — `search_docs` and `read_doc`, no API key.
 
 ## Start with a task
 
 - **Read Robinhood mainnet without an account:** [run the pinned keyless quickstart](https://github.com/blockvectra/agent-quickstart/releases/tag/keyless-read-2026.11.02). With Node.js >= 24.12 and Git, check the chain ID and read a block number without installing dependencies, creating a wallet or using an API key.
 - **Connect to Robinhood Chain:** [RPC setup and chain ID](https://docs.blockvectra.com/en/guides/robinhood-chain/?ref=gh-org-profile) or [compare RPC providers](https://docs.blockvectra.com/en/guides/choose-rpc-provider/?ref=gh-org-profile).
 - **Backfill event logs:** [split block ranges and resume a saved checkpoint](https://docs.blockvectra.com/en/guides/getlogs-block-range/?ref=gh-org-profile).
-- **Use an AI agent:** [install the MCP server](https://github.com/blockvectra/mcp#readme). Documentation and discovery tools work without an API key; RPC follows each chain's public policy, while indexed Data API and account tools require a key.
+- **Search documentation with an AI agent:** [connect to the documentation-only MCP endpoint](https://docs.blockvectra.com/en/guides/mcp-server/?ref=github-org-docs-1107). Search and read English or Chinese docs without an account, API key or local server.
+- **Use RPC and Data tools:** [configure the full MCP server](https://github.com/blockvectra/mcp#readme). RPC follows each chain's public policy, while indexed Data API and account tools require a key.
 
 ## Starter repos
 
